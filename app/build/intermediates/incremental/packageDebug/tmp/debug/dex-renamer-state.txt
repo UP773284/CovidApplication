@@ -1,0 +1,4 @@
+#Sat Apr 10 14:22:55 BST 2021
+base.0=C\:\\Users\\benho\\Documents\\GitHub\\CovidApplication\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
