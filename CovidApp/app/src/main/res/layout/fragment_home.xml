@@ -9,18 +9,33 @@
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="36dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="Whats On?"
+        android:textColor="#C8000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.442" />
+
+    <Button
+        android:id="@+id/boostWellbeingBtn"
+        android:layout_width="118dp"
+        android:layout_height="118dp"
+        android:text="Boost Wellbeing"
+        app:backgroundTint="#ECB323"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/imBoredBtn"
@@ -33,57 +48,54 @@
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.659" />
-
-    <Button
-        android:id="@+id/boostWellbeingBtn"
-        android:layout_width="118dp"
-        android:layout_height="118dp"
-        android:text="Boost Wellbeing"
-        app:backgroundTint="#ECB323"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/keepFitBtn"
         android:layout_width="118dp"
         android:layout_height="118dp"
         android:text="Keep Me Fit"
-        app:backgroundTint="#13C11C"
+        app:backgroundTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toEndOf="@+id/boostWellbeingBtn"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/signPostBtn"
         android:layout_width="360dp"
         android:layout_height="152dp"
+        android:background="#FFFFFF"
         android:text="Covid Sign Post"
-        app:backgroundTint="#221688"
+        app:backgroundTint="#2A518E"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="@+id/toolbar"
-        app:layout_constraintTop_toTopOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="431dp"
-        android:layout_height="248dp"
-        android:background="#BFE5FA"
+        android:layout_width="416dp"
+        android:layout_height="251dp"
+        android:background="#A4D4EF"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        android:adjustViewBounds="false"
+        android:src="@android:drawable/ic_menu_set_as"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="279dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
