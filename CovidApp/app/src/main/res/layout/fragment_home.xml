@@ -7,10 +7,41 @@
     android:background="#FFFFFF"
     tools:context=".ui.home.HomeFragment">
 
+    <Button
+        android:id="@+id/imBoredBtn3"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:text="What's open?"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home"
+        app:layout_constraintVertical_bias="0.071"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/imBoredBtn2"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:text="I'm Bored"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#46B1CF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home"
+        app:layout_constraintVertical_bias="0.071"
+        app:strokeColor="#FFFFFF" />
+
     <TextView
         android:id="@+id/text_home"
         android:layout_width="380dp"
         android:layout_height="36dp"
+        android:text="What's on?"
         android:textColor="#C8000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,44 +53,32 @@
 
     <Button
         android:id="@+id/keepFitBtn"
-        android:layout_width="118dp"
-        android:layout_height="118dp"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
         android:text="Keep Me Fit"
-        app:backgroundTint="#4CAF50"
+        app:backgroundTint="#8BC34A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home"
 
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.705" />
 
     <Button
         android:id="@+id/imBoredBtn"
-        android:layout_width="118dp"
-        android:layout_height="118dp"
-        android:text="I'm Bored"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:text="Boost Wellbeing"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#46B1CF"
+        app:backgroundTint="#FFC107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:layout_constraintVertical_bias="0.142"
+        app:layout_constraintVertical_bias="0.714"
         app:strokeColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/boostWellbeingBtn"
-        android:layout_width="118dp"
-        android:layout_height="118dp"
-        android:text="Boost Wellbeing"
-        app:backgroundTint="#ECB323"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/keepFitBtn"
-        app:layout_constraintStart_toEndOf="@+id/imBoredBtn"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:layout_constraintVertical_bias="0.142" />
 
 
     <Button
