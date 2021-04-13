@@ -1,4 +1,4 @@
-package com.example.covidapp.ui.dashboard;
+package com.example.covidapp.ui.schedule;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,15 +14,15 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.covidapp.R;
 
-public class DashboardFragment extends Fragment {
+public class SceduleFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private SceduleViewModel dashboardViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
+                new ViewModelProvider(this).get(SceduleViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_schedule, container, false);
         final TextView textView = root.findViewById(R.id.text_dashboard);
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
