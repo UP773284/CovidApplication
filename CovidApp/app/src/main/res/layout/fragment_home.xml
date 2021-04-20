@@ -7,6 +7,16 @@
     android:background="#FFFFFF"
     tools:context=".ui.home.HomeFragment">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteY="729dp" />
+
     <Button
         android:id="@+id/imBoredBtn3"
         android:layout_width="160dp"
@@ -51,6 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintVertical_bias="0.066" />
 
+
     <Button
         android:id="@+id/keepFitBtn"
         android:layout_width="160dp"
@@ -59,11 +70,11 @@
         app:backgroundTint="#8BC34A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home"
 
-        app:layout_constraintVertical_bias="0.705" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <Button
         android:id="@+id/imBoredBtn"
@@ -77,9 +88,8 @@
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:layout_constraintVertical_bias="0.714"
+        app:layout_constraintVertical_bias="0.612"
         app:strokeColor="#FFFFFF" />
-
 
     <Button
         android:id="@+id/signPostBtn"
@@ -105,6 +115,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    
 
     <ImageView
         android:id="@+id/imageView2"
