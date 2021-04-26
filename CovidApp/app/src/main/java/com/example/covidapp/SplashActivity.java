@@ -14,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-                val intent = Intent(PackageContext: this@content_sign_up::class.java)
+                val intent = Intent(PackageContext: this@content_sign_up::class.java) //if error change @content_sign_up to MainActivity
                 startActivty(Intent)
         }, delayMillis:3000)
     }
