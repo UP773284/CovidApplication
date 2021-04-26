@@ -29,10 +29,32 @@ public class signUp extends AppCompatActivity {
         signUp = findViewById(R.id.btnSignUp);
 
         signUp.setOnClickListener(new View.OnClickListener() {
+            @override
             public void onClick(View v)
             {
-                Intent i = new Intent(signUp.getContext(), LoginActivity.class);
-                startActivity(i);
+                string firstName, lastName, Email, Password, City;
+
+                firstName = firstName.getText().toString();
+                lastName = lastName.getText().toString();
+                Email = Email.getText().toString();
+                Password = Password.getText().toString();
+                City = City.getText().toString();
+
+                if (firstName.equals(""));{
+                    Toast.makeText(context: Register.this, text "First name cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+                if (lastName.equals(""));{
+                    Toast.makeText(context: Register.this, text "Last name cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+                if (Email.equals(""));{
+                    Toast.makeText(context: Register.this, text "Email cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+                if (Password.equals(""));{
+                    Toast.makeText(context: Register.this, text "Password cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+                if (City.equals(""));{
+                    Toast.makeText(context: Register.this, text "City cannot be empty", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
