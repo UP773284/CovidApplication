@@ -50,6 +50,7 @@
             android:layout_width="403dp"
             android:layout_height="68dp"
             android:text="Can't think of what you want to do? Why not enter some information about how you're currently feeling and we'll suggest an activity for you."
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="157dp" />
 
