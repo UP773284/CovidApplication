@@ -20,12 +20,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintVertical_bias="0.883"
+        android:gravity="center_horizontal" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="194dp"
+        android:layout_width="407dp"
+        android:layout_height="225dp"
         android:background="#85B9E6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +47,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <SeekBar
-        android:id="@+id/seekBar2"
+        android:id="@+id/seekbar_run"
         android:layout_width="286dp"
         android:layout_height="26dp"
         android:paddingTop="0sp"
@@ -65,14 +66,14 @@
         android:layout_height="55dp"
         android:src="@drawable/ic_baseline_door_front_"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/seekBar3"
+        app:layout_constraintEnd_toStartOf="@+id/seekbar_wellbeing"
         app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
         app:layout_constraintVertical_bias="0.605" />
 
     <SeekBar
-        android:id="@+id/seekBar3"
+        android:id="@+id/seekbar_wellbeing"
         android:layout_width="286dp"
         android:layout_height="26dp"
         android:paddingTop="0sp"
@@ -81,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.738"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar2"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar_run"
         app:layout_constraintVertical_bias="0.446" />
 
     <SeekBar
@@ -91,11 +92,11 @@
         android:layout_marginTop="56dp"
         android:paddingTop="0sp"
         android:paddingBottom="0sp"
-        app:layout_constraintBottom_toTopOf="@+id/seekBar3"
+        app:layout_constraintBottom_toTopOf="@+id/seekbar_wellbeing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.744"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar2"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar_run"
         app:layout_constraintVertical_bias="0.103" />
 
     <ImageView
@@ -116,7 +117,7 @@
         android:layout_height="55dp"
         android:src="@drawable/ic_active"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/seekBar2"
+        app:layout_constraintEnd_toStartOf="@+id/seekbar_run"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
@@ -136,10 +137,20 @@
         android:id="@+id/activityLbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="Activity Level"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="575dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
