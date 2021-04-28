@@ -22,7 +22,7 @@ public class preferences extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_preferences);
-        Button b = (Button) findViewById(R.id.button);
+        Button button = (Button) findViewById(R.id.button);
 
         b.setOnClickListener(new View.OnClickListener() {
             @Override

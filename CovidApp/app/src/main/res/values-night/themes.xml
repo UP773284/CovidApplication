@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+<!--    <style name="AppTheme.CustomTheme">-->
+<!--        <item name = "android:windowIsTranslucent" type="">true</item>-->
+<!--        <item name ="android:windowCloseOnTouchOutside" type="">true</item>-->
+<!--    <style name="AppTheme"></style>-->
+
+
 </resources>
