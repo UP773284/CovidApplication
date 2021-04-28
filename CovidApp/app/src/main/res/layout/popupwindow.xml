@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5AFE">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="299dp"
+        android:layout_height="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="403dp"
+        android:text="RANDOM CHOICE"
+        android:textSize="36sp" />
+
+</RelativeLayout>

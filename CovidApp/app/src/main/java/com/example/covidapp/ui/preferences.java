@@ -1,5 +1,6 @@
 package com.example.covidapp.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.covidapp.MainActivity;
 import com.example.covidapp.R;
 
 public class preferences extends AppCompatActivity {
@@ -20,6 +22,15 @@ public class preferences extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_preferences);
+        Button b = (Button) findViewById(R.id.button);
+
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(preferences.this, Pop.class));
+
+            }
+        });
 
         seekBar_run = findViewById(R.id.seekbar_run);
         seekbar_social = findViewById(R.id.seekBar);
@@ -94,16 +105,18 @@ public class preferences extends AppCompatActivity {
         getData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(progress1 < 5 ){
+
+                if(progress1 > progress2 ){
                     Toast.makeText(preferences.this, "Go for a run", Toast.LENGTH_SHORT).show();
 
                 }
-                else if(progress2 <5){
+                else if(progress2 > progress1){
                     Toast.makeText( preferences.this, "Go to the pub kitchen", Toast.LENGTH_SHORT).show();
                 }
-                else if(progress3 <5){
+                else if(progress3  > progress1){
                     Toast.makeText( preferences.this, "Go Dancing", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
     }
