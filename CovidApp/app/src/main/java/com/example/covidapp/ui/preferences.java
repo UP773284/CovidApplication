@@ -24,7 +24,7 @@ public class preferences extends AppCompatActivity {
         setContentView(R.layout.fragment_preferences);
         Button button = (Button) findViewById(R.id.button);
 
-        b.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(preferences.this, Pop.class));
