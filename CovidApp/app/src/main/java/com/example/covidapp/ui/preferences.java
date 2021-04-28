@@ -107,14 +107,20 @@ public class preferences extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(progress1 > progress2 ){
+                    if (progress1 > progress3)
                     Toast.makeText(preferences.this, "Go for a run", Toast.LENGTH_SHORT).show();
 
                 }
                 else if(progress2 > progress1){
-                    Toast.makeText( preferences.this, "Go to the pub kitchen", Toast.LENGTH_SHORT).show();
+                    if(progress2 > progress3)
+                        Toast.makeText( preferences.this, "Go to the pub kitchen", Toast.LENGTH_SHORT).show();
                 }
                 else if(progress3  > progress1){
-                    Toast.makeText( preferences.this, "Go Dancing", Toast.LENGTH_SHORT).show();
+                    if (progress3 > progress2)
+                        Toast.makeText( preferences.this, "Go Dancing", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(preferences.this, "Think of something witty", Toast.LENGTH_SHORT).show();
                 }
 
             }
