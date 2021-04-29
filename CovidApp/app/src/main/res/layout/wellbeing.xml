@@ -22,12 +22,21 @@
             android:id="@+id/toolbar2"
             android:layout_width="410dp"
             android:layout_height="276dp"
-            android:background="#DCFFEA00"
+            android:background="#FFEA00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="171dp"
+            android:layout_height="64dp"
+            android:text="Show what's open"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="221dp" />
 
         <TextView
             android:id="@+id/textView16"

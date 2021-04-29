@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="275dp"
+            android:layout_height="74dp"
+            android:text="Personal care"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="275dp"
+            android:layout_height="74dp"
+            android:text="Supermarket"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="275dp"
+            android:layout_height="74dp"
+            android:text="Hospitality"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="414dp"
+            android:layout_height="102dp"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_nav_menu"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="628dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="275dp"
+            android:layout_height="74dp"
+            android:text="Retail"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="275dp"
+            android:layout_height="74dp"
+            android:text="Personal care"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:layout_editor_absoluteX="365dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="275dp"
+        android:layout_height="74dp"
+        android:text="Hospitality"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="414dp"
+        android:layout_height="102dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="275dp"
+        android:layout_height="74dp"
+        android:text="Retail"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
