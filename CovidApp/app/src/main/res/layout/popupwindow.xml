@@ -6,10 +6,10 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="299dp"
-        android:layout_height="245dp"
+        android:layout_width="340dp"
+        android:layout_height="244dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="403dp"
+        android:layout_marginTop="280dp"
         android:text="RANDOM CHOICE"
         android:textSize="36sp" />
 

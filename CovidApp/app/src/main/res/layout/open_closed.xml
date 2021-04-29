@@ -43,15 +43,18 @@
             tools:layout_editor_absoluteY="210dp" />
 
         <TextView
-            android:id="@+id/textView29"
+            android:id="@+id/personalcare"
             android:layout_width="275dp"
             android:layout_height="74dp"
+            android:background="#1EFFFFFF"
             android:text="Personal care"
+            android:verticalScrollbarPosition="right"
+            android:visibility="visible"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="210dp" />
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
             android:text="Supermarket"
@@ -59,7 +62,7 @@
             tools:layout_editor_absoluteY="375dp" />
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/hospitality"
             android:layout_width="275dp"
             android:layout_height="74dp"
             android:text="Hospitality"
@@ -76,7 +79,7 @@
             tools:layout_editor_absoluteY="628dp" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/retail"
             android:layout_width="275dp"
             android:layout_height="74dp"
             android:text="Retail"
@@ -84,12 +87,12 @@
             tools:layout_editor_absoluteY="543dp" />
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:text="Personal care"
+            android:text="Travel"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="293dp" />
+            tools:layout_editor_absoluteY="292dp" />
 
         <ImageView
             android:id="@+id/imageView17"
@@ -110,7 +113,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/hospitality"
         android:layout_width="275dp"
         android:layout_height="74dp"
         android:text="Hospitality"
@@ -127,7 +130,7 @@
         tools:layout_editor_absoluteY="628dp" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/retail"
         android:layout_width="275dp"
         android:layout_height="74dp"
         android:text="Retail"
