@@ -16,7 +16,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="543dp" />
+            tools:layout_editor_absoluteY="543dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView20"
@@ -24,7 +25,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="459dp" />
+            tools:layout_editor_absoluteY="459dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView19"
@@ -32,7 +34,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="375dp" />
+            tools:layout_editor_absoluteY="375dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView18"
@@ -40,7 +43,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp" />
+            tools:layout_editor_absoluteY="210dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/personalcare"
@@ -51,7 +55,8 @@
             android:verticalScrollbarPosition="right"
             android:visibility="visible"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="210dp" />
+            tools:layout_editor_absoluteY="210dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/sMarket"
@@ -59,7 +64,8 @@
             android:layout_height="74dp"
             android:text="Supermarket"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="375dp" />
+            tools:layout_editor_absoluteY="375dp"
+            tools:ignore="DuplicateIds,MissingConstraints" />
 
         <TextView
             android:id="@+id/hospitality"
@@ -67,7 +73,8 @@
             android:layout_height="74dp"
             android:text="Hospitality"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="459dp" />
+            tools:layout_editor_absoluteY="459dp"
+            tools:ignore="DuplicateIds,MissingConstraints" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/nav_view"
@@ -76,7 +83,8 @@
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav_menu"
             tools:layout_editor_absoluteX="4dp"
-            tools:layout_editor_absoluteY="628dp" />
+            tools:layout_editor_absoluteY="628dp"
+            tools:ignore="DuplicateIds,MissingConstraints" />
 
         <TextView
             android:id="@+id/retail"
@@ -84,7 +92,8 @@
             android:layout_height="74dp"
             android:text="Retail"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="543dp" />
+            tools:layout_editor_absoluteY="543dp"
+            tools:ignore="DuplicateIds,MissingConstraints" />
 
         <TextView
             android:id="@+id/sMarket"
@@ -92,7 +101,8 @@
             android:layout_height="74dp"
             android:text="Travel"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="292dp" />
+            tools:layout_editor_absoluteY="292dp"
+            tools:ignore="DuplicateIds,MissingConstraints" />
 
         <ImageView
             android:id="@+id/imageView17"
@@ -100,7 +110,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp" />
+            tools:layout_editor_absoluteY="210dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
         <ImageView
             android:id="@+id/imageView16"
@@ -108,7 +119,8 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="301dp" />
+            tools:layout_editor_absoluteY="301dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -118,7 +130,8 @@
         android:layout_height="74dp"
         android:text="Hospitality"
         tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="459dp" />
+        tools:layout_editor_absoluteY="459dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -127,7 +140,8 @@
         android:background="?android:attr/windowBackground"
         app:menu="@menu/bottom_nav_menu"
         tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteY="628dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
         android:id="@+id/retail"
@@ -135,6 +149,7 @@
         android:layout_height="74dp"
         android:text="Retail"
         tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="543dp" />
+        tools:layout_editor_absoluteY="543dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
