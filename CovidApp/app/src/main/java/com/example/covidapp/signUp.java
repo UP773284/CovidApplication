@@ -12,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class signUp extends AppCompatActivity {
     EditText firstName, lastName, Email, Password, City;
@@ -25,14 +26,14 @@ public class signUp extends AppCompatActivity {
         lastName = findViewById(R.id.tvlastName);
         Email = findViewById(R.id.tvEmail);
         Password = findViewById(R.id.tvPassword);
-        City = findViewById(R.id.tvPassword);
+        City = findViewById(R.id.tvCity);
         signUp = findViewById(R.id.btnSignUp);
 
         signUp.setOnClickListener(new View.OnClickListener() {
-            @override
+            @Override
             public void onClick(View v)
             {
-                string firstName, lastName, Email, Password, City;
+                String firstName, lastName, Email, Password, City;
 
                 firstName = firstName.getText().toString();
                 lastName = lastName.getText().toString();
@@ -41,30 +42,30 @@ public class signUp extends AppCompatActivity {
                 City = City.getText().toString();
 
                 if (firstName.equals(""));{
-                    Toast.makeText(context: Register.this, text "First name cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUp.this, "First name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 if (lastName.equals(""));{
-                    Toast.makeText(context: Register.this, text "Last name cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUp.this, "Last name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 if (Email.equals(""));{
-                    Toast.makeText(context: Register.this, text "Email cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUp.this, "Email cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 if (Password.equals(""));{
-                    Toast.makeText(context: Register.this, text "Password cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUp.this, "Password cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 if (City.equals(""));{
-                    Toast.makeText(context: Register.this, text "City cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUp.this, "City cannot be empty", Toast.LENGTH_SHORT).show();
                 }
 
             }
         });
-        signUp.setOnClickListener(new View.OnClickListener(){
-            @override
-            public void onClick(View v){
-                Intent R =new Intent(Register.this, MainActivity.class);
-                startActivity(R);
-                finish();
-            }
-        }
-    }
-}
+//        signUp.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v){
+//                Intent R = new Intent(signUp.this, MainActivity.class);
+//                startActivity(R);
+//                finish();
+//            }
+//        }
+//    }
+//}

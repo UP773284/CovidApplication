@@ -51,9 +51,10 @@
             android:id="@+id/personalcare"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#68000000"
+            android:background="#3B000000"
             android:text="Personal care"
             android:textColor="#000000"
+            android:textSize="18sp"
             android:verticalScrollbarPosition="right"
             android:visibility="visible"
             tools:ignore="MissingConstraints"
@@ -64,9 +65,10 @@
             android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#68000000"
+            android:background="#3B000000"
             android:text="Supermarket"
             android:textColor="#000000"
+            android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="375dp" />
@@ -75,9 +77,10 @@
             android:id="@+id/hospitality"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#68000000"
+            android:background="#3B000000"
             android:text="Hospitality"
             android:textColor="#000000"
+            android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="459dp" />
@@ -96,9 +99,10 @@
             android:id="@+id/retail"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#68000000"
+            android:background="#3B000000"
             android:text="Retail"
             android:textColor="#000000"
+            android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="543dp" />
@@ -107,9 +111,10 @@
             android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#68000000"
+            android:background="#3B000000"
             android:text="Travel"
             android:textColor="#000000"
+            android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
             tools:layout_editor_absoluteY="292dp" />
@@ -136,29 +141,13 @@
             android:id="@+id/textView26"
             android:layout_width="406dp"
             android:layout_height="0dp"
-            android:text="What's Open"
+            android:text="What's Open?"
+            android:textColor="#000000"
             android:textSize="36sp"
-            tools:layout_editor_absoluteX="-34dp"
-            tools:layout_editor_absoluteY="81dp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="171dp"
-            tools:layout_editor_absoluteY="54dp" />
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="137dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/hospitality"
-        android:layout_width="275dp"
-        android:layout_height="74dp"
-        android:text="Hospitality"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="459dp"
-        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -168,15 +157,6 @@
         app:menu="@menu/bottom_nav_menu"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="628dp"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <TextView
-        android:id="@+id/retail"
-        android:layout_width="275dp"
-        android:layout_height="74dp"
-        android:text="Retail"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="543dp"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
