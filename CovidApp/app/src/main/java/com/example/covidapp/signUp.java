@@ -12,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class signUp extends AppCompatActivity {
@@ -22,7 +23,8 @@ public class signUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_sign__up);
-        firstName = findViewById(R.id.tvfirstName);
+
+        firstName = (EditText) findViewById(R.id.tvfirstName);
         lastName = findViewById(R.id.tvlastName);
         Email = findViewById(R.id.tvEmail);
         Password = findViewById(R.id.tvPassword);
