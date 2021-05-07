@@ -33,41 +33,37 @@ public class signUp extends AppCompatActivity {
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                String firstName, lastName, Email, Password, City;
+            public void onClick(View v) {
+                String fname, lname, email, password, city;
 
-                firstName = firstName.getText().toString();
-                lastName = lastName.getText().toString();
-                Email = Email.getText().toString();
-                Password = Password.getText().toString();
-                City = City.getText().toString();
+                fname = firstName.getText().toString();
+                lname = lastName.getText().toString();
+                email = Email.getText().toString();
+                password = Password.getText().toString();
+                city = City.getText().toString();
 
-                if (firstName.equals(""));{
+                if (firstName.equals("")) ;
+                {
                     Toast.makeText(signUp.this, "First name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (lastName.equals(""));{
+                if (lastName.equals("")) ;
+                {
                     Toast.makeText(signUp.this, "Last name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (Email.equals(""));{
+                if (Email.equals("")) ;
+                {
                     Toast.makeText(signUp.this, "Email cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (Password.equals(""));{
+                if (Password.equals("")) ;
+                {
                     Toast.makeText(signUp.this, "Password cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (City.equals(""));{
+                if (City.equals("")) ;
+                {
                     Toast.makeText(signUp.this, "City cannot be empty", Toast.LENGTH_SHORT).show();
                 }
 
             }
         });
-//        signUp.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View v){
-//                Intent R = new Intent(signUp.this, MainActivity.class);
-//                startActivity(R);
-//                finish();
-//            }
-//        }
-//    }
-//}
+    }
+}
