@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-public class Second2Fragment extends Fragment {
+class Second2Fragment extends Fragment {
 
-    @Override
+  /*  @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
@@ -30,5 +30,5 @@ public class Second2Fragment extends Fragment {
                         .navigate(R.id.action_Second2Fragment_to_First2Fragment);
             }
         });
-    }
+    }*/
 }

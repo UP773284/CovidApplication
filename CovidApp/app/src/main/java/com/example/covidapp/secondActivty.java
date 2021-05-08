@@ -3,12 +3,15 @@ package com.example.covidapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class secondActivty extends AppCompatActivity {
-    TextView example; // rename
+   /* TextView example; // rename
     Button example; //rename as
 
-    private String activities = [] = ("one", "Two", "Three", "Four", "Five");
+    private String activities [] = new String[]{"one", "Two", "Three", "Four", "Five"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,4 +25,5 @@ public class secondActivty extends AppCompatActivity {
             tv1.setText(jokes[num]);
         });
     }
+}*/
 }
