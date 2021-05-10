@@ -1,21 +1,15 @@
 package com.example.covidapp;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class signUp extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
     EditText firstName, lastName, Email, Password, City;
     Button signUp;
 
@@ -42,25 +36,28 @@ public class signUp extends AppCompatActivity {
                 password = Password.getText().toString();
                 city = City.getText().toString();
 
-                if (firstName.equals("")) ;
+                if (fname.equals(""))
                 {
-                    Toast.makeText(signUp.this, "First name cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "First name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (lastName.equals("")) ;
+               else if (lname.equals(""))
                 {
-                    Toast.makeText(signUp.this, "Last name cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Last name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (Email.equals("")) ;
+                else if (email.equals(""))
                 {
-                    Toast.makeText(signUp.this, "Email cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Email cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (Password.equals("")) ;
+                else if (password.equals(""))
                 {
-                    Toast.makeText(signUp.this, "Password cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Password cannot be empty", Toast.LENGTH_SHORT).show();
                 }
-                if (City.equals("")) ;
+                else if (city.equals(""))
                 {
-                    Toast.makeText(signUp.this, "City cannot be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "City cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(SignUp.this, "Sign up successful!", Toast.LENGTH_SHORT).show();
                 }
 
             }
