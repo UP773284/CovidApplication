@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.fragment_home);
+
         ImBored = findViewById(R.id.imBored);
         KeepMeFit = findViewById(R.id.keepFit);
         WhatsOpen = findViewById(R.id.whatsopen);
