@@ -46,15 +46,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }break;
             case R.id.keepFit:{
                 Toast.makeText(MainActivity.this, "Keep me fit!", Toast.LENGTH_SHORT).show();
-                //navigationToAnother(new keepmefit());
+                navigationToAnother(new keepmefit());
             }break;
             case R.id.whatsopen:{
                 Toast.makeText(MainActivity.this, "What is open!", Toast.LENGTH_SHORT).show();
-                //navigationToAnother(new whatsopen());
+                navigationToAnother(new whatsopen());
             }break;
             case R.id.wellbeing:{
                 Toast.makeText(MainActivity.this, "Well being!", Toast.LENGTH_SHORT).show();
-                //navigationToAnother(new wellbeing());
+                navigationToAnother(new wellbeing());
             }break;
 
         }
