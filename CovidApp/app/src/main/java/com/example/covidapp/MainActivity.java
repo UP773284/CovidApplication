@@ -1,6 +1,7 @@
 package com.example.covidapp;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.covidapp.ui.preferences;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,35 +36,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         WhatsOpen.setOnClickListener(this);
         Wellbeing.setOnClickListener(this);
 
-        //BottomNavigationView navView = findViewById(R.id.nav_view);
-
-
-
- //       AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                //R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                //.build();
-        //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        //NavigationUI.setupWithNavController(navView, navController);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imBored:{
-                Toast.makeText(MainActivity.this, "I am bored!", Toast.LENGTH_SHORT).show();
+                navigationToAnother(new preferences());
             }break;
             case R.id.keepFit:{
                 Toast.makeText(MainActivity.this, "Keep me fit!", Toast.LENGTH_SHORT).show();
-
+                //navigationToAnother(new keepmefit());
             }break;
             case R.id.whatsopen:{
                 Toast.makeText(MainActivity.this, "What is open!", Toast.LENGTH_SHORT).show();
-
+                //navigationToAnother(new whatsopen());
             }break;
             case R.id.wellbeing:{
                 Toast.makeText(MainActivity.this, "Well being!", Toast.LENGTH_SHORT).show();
+                //navigationToAnother(new wellbeing());
             }break;
+
         }
+    }
+
+
+    private void  navigationToAnother(Activity activity)
+    {
+        Intent i = new Intent(this, activity.getClass());
+        startActivity(i);
     }
 }

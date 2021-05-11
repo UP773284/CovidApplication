@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,15 +16,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     EditText etEmail, etPassword;
     Button buttonLogin;
     TextView creataccount;
+    TextView forgotpassword;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         creataccount = findViewById(R.id.textView_createaccount);
+        forgotpassword = findViewById(R.id.tv_forgotpassword);
         etEmail = findViewById(R.id.tvEmail);
         etPassword = findViewById(R.id.tvPassword);
         buttonLogin = (Button)findViewById(R.id.buttonLogin);
         creataccount.setOnClickListener(this);
+        forgotpassword.setOnClickListener(this);
         buttonLogin.setOnClickListener(this);
 
 
@@ -52,11 +56,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.buttonLogin:
                 validate(etEmail.getText().toString(),etPassword.getText().toString());
                 break;
+
+            case R.id.tv_forgotpassword:
+                Toast.makeText(LoginActivity.this,"A password recovery link has been sent to your email", Toast.LENGTH_LONG).show();
+                break;
         }
 
     }
 
-    private void  navigationToAnother(Activity  activity)
+    private void  navigationToAnother(Activity activity)
     {
         Intent i = new Intent(this, activity.getClass());
         startActivity(i);

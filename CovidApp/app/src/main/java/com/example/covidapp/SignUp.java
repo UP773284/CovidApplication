@@ -36,6 +36,7 @@ public class SignUp extends AppCompatActivity {
                 password = Password.getText().toString();
                 city = City.getText().toString();
 
+
                 if (fname.equals(""))
                 {
                     Toast.makeText(SignUp.this, "First name cannot be empty", Toast.LENGTH_SHORT).show();
