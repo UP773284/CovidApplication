@@ -4,7 +4,9 @@ This is the app for our project
 located in CovidApp foler. ignore the app folder
 
 Connect front end to backend []
+
 Add already got an account on sign up page[]
+
 Add map with covid information []
 Covid-19 sign-posts []
 Whats open recycle view []
