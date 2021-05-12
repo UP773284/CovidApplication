@@ -30,8 +30,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         forgotpassword.setOnClickListener(this);
         buttonLogin.setOnClickListener(this);
 
-
-
     }
 
     private void validate(String email, String password) {

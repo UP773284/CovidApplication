@@ -23,8 +23,9 @@ import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button ImBored, KeepMeFit, WhatsOpen, Wellbeing;
-BottomNavigationView bottomNavigationView;
-Context mcontext=null;
+    BottomNavigationView bottomNavigationView;
+    Context mcontext=null;
+
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +60,11 @@ Context mcontext=null;
                         //navigationToAnother(new Information());
                         return true;
                     case R.id.navigation_home:
-                        Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
-                        //navigationToAnother(new MainActivity());
+                        //Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
+                        navigationToAnother(new MainActivity());
                         return true;
                     case R.id.navigation_user:
-                        Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
+                        //Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
                         navigationToAnother(new preferences());
                         return true;
                 }
@@ -81,15 +82,15 @@ Context mcontext=null;
             }break;
             case R.id.keepFit:{
                 Toast.makeText(MainActivity.this, "Keep me fit!", Toast.LENGTH_SHORT).show();
-                navigationToAnother(new keepmefit());
+                //navigationToAnother(new keepmefit());
             }break;
             case R.id.whatsopen:{
                 Toast.makeText(MainActivity.this, "What is open!", Toast.LENGTH_SHORT).show();
-                navigationToAnother(new whatsopen());
+                //navigationToAnother(new whatsopen());
             }break;
             case R.id.wellbeing:{
                 Toast.makeText(MainActivity.this, "Well being!", Toast.LENGTH_SHORT).show();
-                navigationToAnother(new wellbeing());
+                //navigationToAnother(new wellbeing());
             }break;
 
         }
