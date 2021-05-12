@@ -2,8 +2,10 @@ package com.example.covidapp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,6 +14,7 @@ import android.widget.Toast;
 import com.example.covidapp.ui.preferences;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -20,13 +23,16 @@ import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button ImBored, KeepMeFit, WhatsOpen, Wellbeing;
-
+BottomNavigationView bottomNavigationView;
+Context mcontext=null;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_home);
+        mcontext=this;
 
+        bottomNavigationView=findViewById(R.id.nav_view);
         ImBored = findViewById(R.id.imBored);
         KeepMeFit = findViewById(R.id.keepFit);
         WhatsOpen = findViewById(R.id.whatsopen);
@@ -35,6 +41,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         KeepMeFit.setOnClickListener(this);
         WhatsOpen.setOnClickListener(this);
         Wellbeing.setOnClickListener(this);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch(item.getItemId()){
+                    case R.id.navigation_location:
+                        Toast.makeText(mcontext,"Location Clicked",Toast.LENGTH_LONG).show();
+                        navigationToAnother(new preferences());
+                        return true;
+                    case R.id.navigation_calendar:
+
+                        Toast.makeText(mcontext,"Calndar Clicked",Toast.LENGTH_LONG).show();
+                        return true;
+                    case R.id.navigation_information:
+                        Toast.makeText(mcontext,"information Clicked",Toast.LENGTH_LONG).show();
+                        return true;
+                    case R.id.navigation_home:
+                        Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
+                        return true;
+                    case R.id.navigation_user:
+                        Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
+                        return true;
+                }
+                return false;
+            }
+        });
 
     }
 
