@@ -48,20 +48,23 @@ Context mcontext=null;
                 switch(item.getItemId()){
                     case R.id.navigation_location:
                         Toast.makeText(mcontext,"Location Clicked",Toast.LENGTH_LONG).show();
-                        navigationToAnother(new preferences());
+                        //navigationToAnother(new map());
                         return true;
                     case R.id.navigation_calendar:
-
                         Toast.makeText(mcontext,"Calndar Clicked",Toast.LENGTH_LONG).show();
+                        //navigationToAnother(new scheduler());
                         return true;
                     case R.id.navigation_information:
                         Toast.makeText(mcontext,"information Clicked",Toast.LENGTH_LONG).show();
+                        //navigationToAnother(new Information());
                         return true;
                     case R.id.navigation_home:
                         Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
+                        //navigationToAnother(new MainActivity());
                         return true;
                     case R.id.navigation_user:
                         Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
+                        navigationToAnother(new preferences());
                         return true;
                 }
                 return false;

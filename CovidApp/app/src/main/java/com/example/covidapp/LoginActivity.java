@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void validate(String email, String password) {
-        if (email.equalsIgnoreCase("test@myport.ac.uk" )&& password.equalsIgnoreCase("Smellyjelly123")){
+        if (email.equalsIgnoreCase("test@myport.ac.uk" )&& password.equalsIgnoreCase("password")){
 
             navigationToAnother(new MainActivity());
 
