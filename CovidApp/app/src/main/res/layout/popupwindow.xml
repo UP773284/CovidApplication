@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="261dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="272dp"
         android:text="RANDOM CHOICE"
         android:textSize="36sp" />
 

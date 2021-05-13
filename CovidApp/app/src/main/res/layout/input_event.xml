@@ -8,6 +8,19 @@
     android:layout_gravity="center"
     android:background="#587EB6">
 
+    <EditText
+        android:id="@+id/eventInpt2"
+        android:layout_width="257dp"
+        android:layout_height="98dp"
+        android:background="@android:color/background_light"
+        android:hint="Description"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"

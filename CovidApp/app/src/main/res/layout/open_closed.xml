@@ -8,73 +8,82 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/imageView21"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="543dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="543dp" />
 
         <ImageView
             android:id="@+id/imageView20"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="459dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="459dp" />
 
         <ImageView
             android:id="@+id/imageView19"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="375dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="375dp" />
 
         <ImageView
             android:id="@+id/imageView18"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="210dp" />
 
         <TextView
             android:id="@+id/personalcare"
             android:layout_width="275dp"
             android:layout_height="74dp"
-            android:background="#1EFFFFFF"
+            android:background="#3B000000"
             android:text="Personal care"
+            android:textColor="#000000"
+            android:textSize="18sp"
             android:verticalScrollbarPosition="right"
             android:visibility="visible"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="210dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="210dp" />
 
         <TextView
             android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
+            android:background="#3B000000"
             android:text="Supermarket"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="375dp"
-            tools:ignore="DuplicateIds,MissingConstraints" />
+            tools:layout_editor_absoluteY="375dp" />
 
         <TextView
             android:id="@+id/hospitality"
             android:layout_width="275dp"
             android:layout_height="74dp"
+            android:background="#3B000000"
             android:text="Hospitality"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="459dp"
-            tools:ignore="DuplicateIds,MissingConstraints" />
+            tools:layout_editor_absoluteY="459dp" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/nav_view"
@@ -82,56 +91,63 @@
             android:layout_height="102dp"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav_menu"
+            tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="4dp"
-            tools:layout_editor_absoluteY="628dp"
-            tools:ignore="DuplicateIds,MissingConstraints" />
+            tools:layout_editor_absoluteY="628dp" />
 
         <TextView
             android:id="@+id/retail"
             android:layout_width="275dp"
             android:layout_height="74dp"
+            android:background="#3B000000"
             android:text="Retail"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="543dp"
-            tools:ignore="DuplicateIds,MissingConstraints" />
+            tools:layout_editor_absoluteY="543dp" />
 
         <TextView
             android:id="@+id/sMarket"
             android:layout_width="275dp"
             android:layout_height="74dp"
+            android:background="#3B000000"
             android:text="Travel"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="292dp"
-            tools:ignore="DuplicateIds,MissingConstraints" />
+            tools:layout_editor_absoluteY="292dp" />
 
         <ImageView
             android:id="@+id/imageView17"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="210dp" />
 
         <ImageView
             android:id="@+id/imageView16"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
             tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="301dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="301dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="406dp"
+            android:layout_height="0dp"
+            android:text="What's Open?"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="137dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/hospitality"
-        android:layout_width="275dp"
-        android:layout_height="74dp"
-        android:text="Hospitality"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="459dp"
-        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -141,15 +157,6 @@
         app:menu="@menu/bottom_nav_menu"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="628dp"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <TextView
-        android:id="@+id/retail"
-        android:layout_width="275dp"
-        android:layout_height="74dp"
-        android:text="Retail"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="543dp"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
