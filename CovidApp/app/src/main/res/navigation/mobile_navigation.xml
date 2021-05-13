@@ -21,5 +21,5 @@
         android:id="@+id/navigation_notifications"
         android:name="com.example.covidapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/imbored" />
+        tools:layout="@layout/im_bored" />
 </navigation>

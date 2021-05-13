@@ -139,13 +139,16 @@
 
         <TextView
             android:id="@+id/textView26"
-            android:layout_width="406dp"
-            android:layout_height="0dp"
+            android:layout_width="410dp"
+            android:layout_height="50dp"
             android:text="What's Open?"
             android:textColor="#000000"
             android:textSize="36sp"
-            tools:layout_editor_absoluteX="4dp"
-            tools:layout_editor_absoluteY="137dp" />
+            app:layout_constraintBottom_toTopOf="@+id/personalcare"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
