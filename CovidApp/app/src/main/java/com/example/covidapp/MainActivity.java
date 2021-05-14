@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //navigationToAnother(new map());
                         return true;
                     case R.id.navigation_calendar:
-                        Toast.makeText(mcontext,"Calndar Clicked",Toast.LENGTH_LONG).show();
+                        Toast.makeText(mcontext,"Calendar Clicked",Toast.LENGTH_LONG).show();
                         //navigationToAnother(new scheduler());
                         return true;
                     case R.id.navigation_information:
@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //navigationToAnother(new Information());
                         return true;
                     case R.id.navigation_home:
-                        //Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
+                        Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();
                         navigationToAnother(new MainActivity());
                         return true;
                     case R.id.navigation_user:
-                        //Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
+                        Toast.makeText(mcontext,"Profile Clicked",Toast.LENGTH_LONG).show();
                         navigationToAnother(new preferences());
                         return true;
                 }

@@ -2,6 +2,7 @@ package com.example.covidapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
@@ -20,7 +21,7 @@ public class preferences extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.imbored);
-        Button button = (Button) findViewById(R.id.button);
+      /*  Button button = (Button) findViewById(R.id.Randombtn);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,33 +29,32 @@ public class preferences extends AppCompatActivity {
                 startActivity(new Intent(preferences.this, Pop.class));
 
             }
-        });
+        });*/
 
         seekBar_run = findViewById(R.id.seekbar_run);
         seekbar_social = findViewById(R.id.seekBar);
 
         seekbar_wellbeing = findViewById(R.id.seekbar_wellbeing);
 
-        getData = findViewById(R.id.button);
+        getData = findViewById(R.id.Randombtn);
 
         seekBar_run.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress,
                                           boolean fromUser) {
-//                Toast.makeText(getApplicationContext(),"seekbar progress: "+progress, Toast.LENGTH_SHORT).show();
+
                 progress1 = progress;
+                Log.d("Seek bar","Run "+progress1.toString());
                 seekBar_run.setProgress(progress);
 
             }
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch started!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch stopped!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -62,20 +62,18 @@ public class preferences extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress,
                                           boolean fromUser) {
-//                Toast.makeText(getApplicationContext(),"seekbar progress: "+progress, Toast.LENGTH_SHORT).show();
                 progress2 = progress;
                 seekbar_social.setProgress(progress);
+                Log.d("Seek bar","Social "+progress2.toString());
 
             }
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch started!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch stopped!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -83,20 +81,18 @@ public class preferences extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress,
                                           boolean fromUser) {
-//                Toast.makeText(getApplicationContext(),"seekbar progress: "+progress, Toast.LENGTH_SHORT).show();
                 progress3 = progress;
                 seekbar_wellbeing.setProgress(progress);
+                Log.d("Seek bar","Well Being "+progress1.toString());
 
             }
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch started!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-//                Toast.makeText(getApplicationContext(),"seekbar touch stopped!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -104,25 +100,22 @@ public class preferences extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(progress1 > progress2 ){
-                    if (progress1 > progress3)
+                if(progress1 < progress2  && progress1 < progress3 ){
+
                     Toast.makeText(preferences.this, "Go for a run", Toast.LENGTH_SHORT).show();
 
                 }
-                else
-                    if(progress2 > progress1){
-                        if(progress2 > progress3)
+                else if(progress2 < progress1 && progress2 < progress3){
+
                             Toast.makeText( preferences.this, "Go to the pub kitchen", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    if(progress3  > progress1){
-                        if (progress3 > progress2)
+
+
                             Toast.makeText( preferences.this, "Go Dancing", Toast.LENGTH_SHORT).show();
                     }
-                    else {
-                        Toast.makeText(preferences.this, "Think of something witty", Toast.LENGTH_SHORT).show();
-                    }
-                }
+
+
 
             }
         });
