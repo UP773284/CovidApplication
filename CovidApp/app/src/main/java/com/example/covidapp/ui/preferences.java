@@ -36,7 +36,7 @@ public class preferences extends AppCompatActivity {
 
         seekbar_wellbeing = findViewById(R.id.seekbar_wellbeing);
 
-        getData = findViewById(R.id.Randombtn);
+        //getData = findViewById(R.id.Randombtn);
 
         seekBar_run.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
