@@ -1,34 +1,14 @@
 # CovidApplication
 
 This is the app for our project 
-located in CovidApp foler. ignore the app folder
+located in CovidApp folder.
 
-Connect front end to backend []
+Covid-19 sign-posts
 
-Add already got an account on sign up page[]
+Whats open back end
 
-Add map with covid information []
+Backend for settings 
 
-Covid-19 sign-posts []
+Map fragment
 
-Whats open recycle view []
-
-Nav bar functionality []
-
-Failed auth attempt message []
-
-Backend for settings []
-
-Im bored pop up []
-
-Content for Keep me fit []
-
-Content for info page []
-
-new page for scheduled activity []
-
-Part 5 []
-
-Add all content to PDF []
-
-Video []
+Im bored pop up
