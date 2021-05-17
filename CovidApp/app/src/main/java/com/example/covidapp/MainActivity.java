@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         return true;
                     case R.id.navigation_information:
                         Toast.makeText(mcontext,"information Clicked",Toast.LENGTH_LONG).show();
-                        //navigationToAnother(new Information());
+                        navigationToAnother(new Information());
                         return true;
                     case R.id.navigation_home:
                         Toast.makeText(mcontext,"Home Clicked",Toast.LENGTH_LONG).show();

@@ -26,15 +26,18 @@
             android:id="@+id/personalcare2"
             android:layout_width="281dp"
             android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
             android:background="#3B000000"
             android:text="Retail"
             android:textColor="#000000"
             android:textSize="18sp"
             android:verticalScrollbarPosition="right"
             android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/personalcare"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="289dp" />
+            tools:layout_editor_absoluteX="130dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar3"
@@ -127,7 +130,7 @@
             android:visibility="visible"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="353dp" />
+            tools:layout_editor_absoluteY="357dp" />
 
         <ImageView
             android:id="@+id/imageView16"
