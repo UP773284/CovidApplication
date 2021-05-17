@@ -11,79 +11,57 @@
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="41dp"
-            android:layout_height="39dp"
-            app:srcCompat="@drawable/ic_expand"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="543dp" />
-
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="41dp"
-            android:layout_height="39dp"
-            app:srcCompat="@drawable/ic_expand"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="459dp" />
-
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="41dp"
-            android:layout_height="39dp"
-            app:srcCompat="@drawable/ic_expand"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="375dp" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="41dp"
-            android:layout_height="39dp"
-            app:srcCompat="@drawable/ic_expand"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What's open?"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="227dp" />
 
         <TextView
-            android:id="@+id/personalcare"
-            android:layout_width="275dp"
-            android:layout_height="74dp"
+            android:id="@+id/personalcare2"
+            android:layout_width="281dp"
+            android:layout_height="64dp"
             android:background="#3B000000"
-            android:text="Personal care"
+            android:text="Retail"
             android:textColor="#000000"
             android:textSize="18sp"
             android:verticalScrollbarPosition="right"
             android:visibility="visible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="210dp" />
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="289dp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="408dp"
+            android:layout_height="227dp"
+            android:background="#CFE9F8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/sMarket"
-            android:layout_width="275dp"
-            android:layout_height="74dp"
-            android:background="#3B000000"
-            android:text="Supermarket"
+            android:id="@+id/textView"
+            android:layout_width="408dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="512dp"
+            android:text="Heading out? Why not use this page to see which shops and establishments are still trading. Here you will also be able to see a companies trading hours and capacity limits. "
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="375dp" />
-
-        <TextView
-            android:id="@+id/hospitality"
-            android:layout_width="275dp"
-            android:layout_height="74dp"
-            android:background="#3B000000"
-            android:text="Hospitality"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="459dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/nav_view"
@@ -96,37 +74,60 @@
             tools:layout_editor_absoluteY="628dp" />
 
         <TextView
-            android:id="@+id/retail"
-            android:layout_width="275dp"
-            android:layout_height="74dp"
+            android:id="@+id/sMarket"
+            android:layout_width="281dp"
+            android:layout_height="64dp"
             android:background="#3B000000"
-            android:text="Retail"
+            android:text="Supermarket"
             android:textColor="#000000"
             android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="543dp" />
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="493dp" />
 
         <TextView
             android:id="@+id/sMarket"
-            android:layout_width="275dp"
-            android:layout_height="74dp"
+            android:layout_width="281dp"
+            android:layout_height="64dp"
             android:background="#3B000000"
             android:text="Travel"
             android:textColor="#000000"
             android:textSize="18sp"
             tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="131dp"
-            tools:layout_editor_absoluteY="292dp" />
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="429dp" />
 
         <ImageView
-            android:id="@+id/imageView17"
+            android:id="@+id/imageView19"
             android:layout_width="41dp"
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="210dp" />
+            tools:layout_editor_absoluteX="364dp"
+            tools:layout_editor_absoluteY="499dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
+            tools:layout_editor_absoluteX="368dp"
+            tools:layout_editor_absoluteY="289dp" />
+
+        <TextView
+            android:id="@+id/personalcare"
+            android:layout_width="278dp"
+            android:layout_height="72dp"
+            android:background="#3B000000"
+            android:text="Personal care"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:verticalScrollbarPosition="right"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="353dp" />
 
         <ImageView
             android:id="@+id/imageView16"
@@ -134,18 +135,38 @@
             android:layout_height="39dp"
             app:srcCompat="@drawable/ic_expand"
             tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="365dp"
-            tools:layout_editor_absoluteY="301dp" />
+            tools:layout_editor_absoluteX="364dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
+            tools:layout_editor_absoluteX="366dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="41dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/ic_expand"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
+            tools:layout_editor_absoluteX="366dp"
+            tools:layout_editor_absoluteY="560dp" />
 
         <TextView
-            android:id="@+id/textView26"
-            android:layout_width="406dp"
-            android:layout_height="0dp"
-            android:text="What's Open?"
+            android:id="@+id/hospitality"
+            android:layout_width="281dp"
+            android:layout_height="64dp"
+            android:background="#3B000000"
+            android:text="Hospitality"
             android:textColor="#000000"
-            android:textSize="36sp"
-            tools:layout_editor_absoluteX="4dp"
-            tools:layout_editor_absoluteY="137dp" />
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="557dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
