@@ -1,5 +1,7 @@
 package com.example.covidapp;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,9 +11,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class SignUp extends AppCompatActivity {
+public class SignUp extends AppCompatActivity{
     EditText firstName, lastName, Email, Password, City;
     Button signUp;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,15 +56,18 @@ public class SignUp extends AppCompatActivity {
                 {
                     Toast.makeText(SignUp.this, "Password cannot be empty", Toast.LENGTH_SHORT).show();
                 }
+
                 else if (city.equals(""))
                 {
                     Toast.makeText(SignUp.this, "City cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Toast.makeText(SignUp.this, "Sign up successful!", Toast.LENGTH_SHORT).show();
+
                 }
 
             }
         });
     }
 }
+

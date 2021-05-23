@@ -38,6 +38,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             navigationToAnother(new MainActivity());
 
         }
+        else {
+            Toast.makeText(LoginActivity.this, "Incorrect email or password.", Toast.LENGTH_LONG).show();
+        }
 
 
     }
