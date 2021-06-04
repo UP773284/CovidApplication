@@ -2,6 +2,7 @@ package com.example.covidapp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.covidapp.ui.preferences;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
@@ -42,6 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         KeepMeFit.setOnClickListener(this);
         WhatsOpen.setOnClickListener(this);
         Wellbeing.setOnClickListener(this);
+
+
+
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -56,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //navigationToAnother(new scheduler());
                         return true;
                     case R.id.navigation_information:
-                        Toast.makeText(mcontext,"information Clicked",Toast.LENGTH_LONG).show();
+                        Toast.makeText(mcontext,"Information Clicked",Toast.LENGTH_LONG).show();
                         navigationToAnother(new Information());
                         return true;
                     case R.id.navigation_home:
@@ -102,4 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i = new Intent(this, activity.getClass());
         startActivity(i);
     }
+
+
+
+
+
 }
