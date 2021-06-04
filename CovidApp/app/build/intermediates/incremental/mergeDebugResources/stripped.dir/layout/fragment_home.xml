@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <Button
+        android:id="@+id/keepFit"
+        style="@style/homebuttonstyle"
+        android:layout_marginTop="32dp"
+        android:text="Keep Me Fit"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imBored"
+        app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+    <Button
+        android:id="@+id/whatsopen"
+        style="@style/homebuttonstyle"
+        android:layout_marginTop="32dp"
+        android:text="What's open?"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toEndOf="@+id/wellbeing"
+        app:layout_constraintTop_toBottomOf="@+id/keepFit"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/imBored"
+        style="@style/homebuttonstyle"
+        android:layout_marginTop="32dp"
+        android:text="I'm Bored"
+        app:backgroundTint="#46B1CF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home"
+        app:strokeColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="381dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text="What's on?"
+        android:textColor="#C8000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signPostBtn" />
+
+    <Button
+        android:id="@+id/signPostBtn"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:text="@string/covid_sign_posts"
+        app:backgroundTint="#395F9C"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/expandinformation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:clickable="false"
+        android:src="@drawable/ic_expand"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/signPostBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wellbeing"
+        style="@style/homebuttonstyle"
+        android:layout_marginTop="32dp"
+        android:text="Boost Wellbeing"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imBored"
+        app:strokeColor="#FFFFFF" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+com/example/covidapp/ui/AddEvent.java
+ com.example.covidapp.ui.AddEvent
+com/example/covidapp/ui/notifications/NotificationsViewModel.java
+ com.example.covidapp.ui.notifications.NotificationsViewModel
+com/example/covidapp/WhatsOpen.java
+ com.example.covidapp.WhatsOpen
+com/example/covidapp/ui/diary/MyDiaryEventViewHolder.java
+ com.example.covidapp.ui.diary.MyDiaryEventViewHolder
+com/example/covidapp/ui/eventlist/adapter/EventViewHolder.java
+ com.example.covidapp.ui.eventlist.adapter.EventViewHolder
+com/example/covidapp/WellBeing.java
+ com.example.covidapp.WellBeing
+com/example/covidapp/ui/feedback/Feedback.java
+ com.example.covidapp.ui.feedback.Feedback
+com/example/covidapp/databinding/OpenClosedBinding.java
+ com.example.covidapp.databinding.OpenClosedBinding
+com/example/covidapp/SecondFragment.java
+ com.example.covidapp.SecondFragment
+ com.example.covidapp.SecondFragment$1
+com/example/covidapp/ui/home/dashboard/DashboardFragment.java
+ com.example.covidapp.ui.home.dashboard.DashboardFragment
+com/example/covidapp/LoginActivity.java
+ com.example.covidapp.LoginActivity
+com/example/covidapp/ui/information/InformationFragment.java
+ com.example.covidapp.ui.information.InformationFragment
+com/example/covidapp/DataBindingTriggerClass.java
+ com.example.covidapp.DataBindingTriggerClass
+com/example/covidapp/KeepFit.java
+ com.example.covidapp.KeepFit
+com/example/covidapp/ui/dashboard/DashboardFragment.java
+ com.example.covidapp.ui.dashboard.DashboardFragment
+com/example/covidapp/ui/diary/EventList_Diary.java
+ com.example.covidapp.ui.diary.EventList_Diary
+com/example/covidapp/data/local/EventDataSource.java
+ com.example.covidapp.data.local.EventDataSource
+com/example/covidapp/listener/FavoriteEventItemClickListener.java
+ com.example.covidapp.listener.FavoriteEventItemClickListener
+com/example/covidapp/ui/usernavigation/NavigationFragment.java
+ com.example.covidapp.ui.usernavigation.NavigationFragment
+com/example/covidapp/ui/notifications/NotificationsFragment.java
+ com.example.covidapp.ui.notifications.NotificationsFragment
+com/example/covidapp/BuildConfig.java
+ com.example.covidapp.BuildConfig
+com/example/covidapp/listener/IBoredListener.java
+ com.example.covidapp.listener.IBoredListener
+com/example/covidapp/MapFragment.java
+ com.example.covidapp.MapFragment
+com/example/covidapp/ui/diary/MyDiaryEventAdapter.java
+ com.example.covidapp.ui.diary.MyDiaryEventAdapter
+ com.example.covidapp.ui.diary.MyDiaryEventAdapter$1
+com/example/covidapp/SplashActivity.java
+ com.example.covidapp.SplashActivity
+ com.example.covidapp.SplashActivity$1
+com/example/covidapp/databinding/ContentSignUpBinding.java
+ com.example.covidapp.databinding.ContentSignUpBinding
+com/example/covidapp/ui/Pop.java
+ com.example.covidapp.ui.Pop
+com/example/covidapp/MainActivity.java
+ com.example.covidapp.MainActivity
+ com.example.covidapp.MainActivity$1
+com/example/covidapp/FirstFragment.java
+ com.example.covidapp.FirstFragment
+ com.example.covidapp.FirstFragment$1
+com/example/covidapp/ui/dashboard/DashboardViewModel.java
+ com.example.covidapp.ui.dashboard.DashboardViewModel
+com/example/covidapp/ui/Preferences.java
+ com.example.covidapp.ui.Preferences
+ com.example.covidapp.ui.Preferences$1
+ com.example.covidapp.ui.Preferences$2
+ com.example.covidapp.ui.Preferences$3
+ com.example.covidapp.ui.Preferences$4
+ com.example.covidapp.ui.Preferences$5
+com/example/covidapp/Information.java
+ com.example.covidapp.Information
+com/example/covidapp/databinding/SettingsBinding.java
+ com.example.covidapp.databinding.SettingsBinding
+com/example/covidapp/utils/AlertDialogHandler.java
+ com.example.covidapp.utils.AlertDialogHandler
+ com.example.covidapp.utils.AlertDialogHandler$1
+com/example/covidapp/SignUp.java
+ com.example.covidapp.SignUp
+com/example/covidapp/ui/diary/MyDiary.java
+ com.example.covidapp.ui.diary.MyDiary
+com/example/covidapp/ui/eventlist/adapter/EventAdapter.java
+ com.example.covidapp.ui.eventlist.adapter.EventAdapter
+ com.example.covidapp.ui.eventlist.adapter.EventAdapter$1
+ com.example.covidapp.ui.eventlist.adapter.EventAdapter$2
+com/example/covidapp/ui/homeFragment/HomeFragment.java
+ com.example.covidapp.ui.homeFragment.HomeFragment
+com/example/covidapp/listener/EventItemClickListener.java
+ com.example.covidapp.listener.EventItemClickListener
+com/example/covidapp/databinding/FeedbackBinding.java
+ com.example.covidapp.databinding.FeedbackBinding
+com/example/covidapp/ui/home/dashboard/DashboardViewModel.java
+ com.example.covidapp.ui.home.dashboard.DashboardViewModel
+com/example/covidapp/Schedule.java
+ com.example.covidapp.Schedule
+ com.example.covidapp.Schedule$1
+com/example/covidapp/settings/SettingsActivity.java
+ com.example.covidapp.settings.SettingsActivity
+com/example/covidapp/ui/eventlist/EventList_Fragment.java
+ com.example.covidapp.ui.eventlist.EventList_Fragment
+ com.example.covidapp.ui.eventlist.EventList_Fragment$1
+com/example/covidapp/data/local/Event.java
+ com.example.covidapp.data.local.Event
+ com.example.covidapp.data.local.Event$1
+com/example/covidapp/ui/eventlist/TestActivity.java
+ com.example.covidapp.ui.eventlist.TestActivity

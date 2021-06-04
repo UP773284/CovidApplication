@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_expand.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_abel.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\font\\abel.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_main.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_information.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foregroundn.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foregroundn.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemevent.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\itemevent.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_find_location.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\find_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_schedule.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scheduler.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\activity_scheduler.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_open_closed.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\open_closed.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_drop_down_background.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_drop_down_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_drop_down.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_eventlist.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_eventlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_new.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_add_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_fragment_mydiary.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout-v21\\fragment_mydiary.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_drop_down.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_follow.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\follow.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_info.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_information.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\information.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_im_bored.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\im_bored.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_enjoys.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\enjoys.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewevent.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\viewevent.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_location.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-hdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_scheduler.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\content_scheduler.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupwindow.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\popupwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_drop_down_arrow.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_drop_down_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_sign__up.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\content_sign__up.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_drop_down.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_profile.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-anydpi\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_drop_down.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_calendar.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_itemfavorite.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout-v21\\itemfavorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_calendar.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-anydpi\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_info.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-anydpi\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_calendar.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_location.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-anydpi\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_groups.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_groups.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foregroundn.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foregroundn.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_feedback.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_abeezee.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\font\\abeezee.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_diary.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\activity_my_diary.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shopping.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_drop_down_foreground.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_drop_down_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_biorhyme_extrabold.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\font\\biorhyme_extrabold.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_calendar.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_active.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_ramabhadra.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\font\\ramabhadra.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_input_event.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\input_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wellbeing.jpg.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\wellbeing.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_info.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_generate_activity.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\generate_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_info.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foregroundn.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foregroundn.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foregroundn.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foregroundn.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_keepfit.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\keepfit.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foregroundn.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foregroundn.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_wellbeing.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\wellbeing.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_calendar.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-hdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_drop_down.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_drop_down.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_drop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_advent_pro_semibold.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\font\\advent_pro_semibold.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_door_front_.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_door_front_.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_wellbeing_activity.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\wellbeing_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person.xml.flat",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\drawable\\ic_baseline_person.xml"
+    }
+]

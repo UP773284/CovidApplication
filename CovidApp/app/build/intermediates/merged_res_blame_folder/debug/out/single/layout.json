@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_sign__up.xml",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\content_sign__up.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\feedback.xml",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\open_closed.xml",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\open_closed.xml"
+    },
+    {
+        "merged": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\settings.xml",
+        "source": "C:\\Users\\mchis\\Downloads\\CovidApp (1)\\CovidApp\\app\\src\\main\\res\\layout\\settings.xml"
+    }
+]
