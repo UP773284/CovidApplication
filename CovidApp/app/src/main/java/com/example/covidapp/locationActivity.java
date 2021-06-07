@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,7 +38,7 @@ import java.util.List;
 
 //implements GoogleMap.OnMapLongClickListener, GoogleMap.OnMapClickListener
 
-    public class locationActivity extends AppCompatActivity implements OnMapReadyCallback, RoutingListener {
+    public class locationActivity extends AppCompatActivity implements OnMapReadyCallback, RoutingListener, View.OnClickListener {
         //Initialise variable
         SupportMapFragment mapFrag;
         FusedLocationProviderClient client;
@@ -54,6 +55,7 @@ import java.util.List;
 
             //acquiring directions button
             directionsBtn = findViewById(R.id.directionsBtn);
+            directionsBtn.setOnClickListener(this);
 
 
             //Initialise fused location
@@ -79,6 +81,11 @@ import java.util.List;
 
         }
 
+        @Override
+        public void onClick(View v) {
+            createRoute();
+        }
+
         private void getLocation() {
             Task<Location> task =
                     client.getLastLocation();
@@ -90,9 +97,9 @@ import java.util.List;
                         mapFrag.getMapAsync(new OnMapReadyCallback() {
                             @Override
                             public void onMapReady(@NonNull GoogleMap googleMap) {
-                                //
+                                //get locations
                                 LatLng latLngStart = new LatLng(location.getLatitude(), location.getLongitude());
-                                LatLng latLngEnd = new LatLng(50.790, -1.073);
+                                LatLng latLngEnd = new LatLng(37.404, -122.078);
                                 //create marker options
                                 MarkerOptions homeMarker = new MarkerOptions().position(latLngStart).title("start");
                                 MarkerOptions secondMarker = new MarkerOptions().position(latLngEnd).title("destination");
@@ -106,7 +113,9 @@ import java.util.List;
 
                                 //String url = getUrl(homeMarker.getPosition(), secondMarker.getPosition(), "walking");
                                 //results.setText(url);
-                                createRoute(latLngStart, latLngEnd);
+
+
+                                //createRoute();//latLngStart, latLngEnd);
 
                             }
                         });
@@ -117,8 +126,24 @@ import java.util.List;
 
         }
 
-        private void createRoute(LatLng start, LatLng end) {
-            Routing route= new Routing.Builder()
+        private void createRoute(){//LatLng start, LatLng end) {
+            LatLng start = new LatLng(10,10);
+            LatLng end = new LatLng(13,13);
+            Toast.makeText(this, "entered createRoute", Toast.LENGTH_LONG).show();
+            if(start==null || end==null){
+                if (start==null) {
+                    Toast.makeText(this, "no start", Toast.LENGTH_LONG).show();
+                }
+                if (end == null){
+                    Toast.makeText(this, "no end", Toast.LENGTH_LONG).show();
+                }
+            }
+            else{
+                Toast.makeText(this, "different error " + start + " " + end, Toast.LENGTH_LONG).show();
+
+            }
+            Routing route = new Routing.Builder()
+                    .key("AIzaSyDAEl-Eb6vmncRQzjOcBYNxniDKBEJ6y_Y")
                     .travelMode(AbstractRouting.TravelMode.WALKING)
                     .withListener(this)
                     .alternativeRoutes(false)
@@ -191,7 +216,12 @@ import java.util.List;
 
         @Override
         public void onRoutingFailure(RouteException e) {
-            Toast.makeText(this, "This is an error on routing failure", Toast.LENGTH_LONG).show();
+            if (e != null) {
+                Toast.makeText(this, "error:  " + e.getMessage(), Toast.LENGTH_LONG).show();
+            }
+            else{
+                Toast.makeText(this,"something went wrong", Toast.LENGTH_LONG).show();
+            }
         }
 
         @Override
@@ -228,12 +258,12 @@ import java.util.List;
         public void onRoutingCancelled() {
 
         }
+
         private void removeLines(){
             for (Polyline line : polylines){
                 line.remove();
             }
             polylines.clear();
         }
-    }
 }
 
