@@ -1,6 +1,5 @@
 package com.example.covidapp;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -8,18 +7,13 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
-
-import com.example.covidapp.ui.preferences;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+
+import com.example.covidapp.ui.preferences;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button ImBored, KeepMeFit, WhatsOpen, Wellbeing;
@@ -50,6 +44,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     case R.id.navigation_location:
                         Toast.makeText(mcontext,"Location Clicked",Toast.LENGTH_LONG).show();
                         //navigationToAnother(new map());
+                        setTitle("Location");
+                        //getSupportFragmentManager().beginTransaction().replace(R.id.fragmentcontainer, new locationActivity()).commit();
                         return true;
                     case R.id.navigation_calendar:
                         Toast.makeText(mcontext,"Calendar Clicked",Toast.LENGTH_LONG).show();
